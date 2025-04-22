@@ -14,7 +14,7 @@ C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS
 Code, Compile, Run and Debug online from anywhere in world.
 
 '''
-for i in rang(5):
+for i in range(5):
    if i == 3:
-       break
+       continue
    print(i)
