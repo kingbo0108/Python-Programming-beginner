@@ -1,0 +1,17 @@
+'''
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+'''
+def my_function1(year):
+    return 1911 + year
+def my_function2(year):
+    return year - 1911
+
+year = int(input("please input 民國="))
+print("西元=",my_function1(year))
+year = int(input("please input 西元="))
+print("民國=",my_function2(year))
