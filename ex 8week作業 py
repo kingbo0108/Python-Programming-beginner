@@ -1,0 +1,19 @@
+'''
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+'''
+a = int(input("輸入10數字 第1個數字:"))
+b = int(input("輸入10數字 第2個數字:"))
+c = int(input("輸入10數字 第3個數字:"))
+d = int(input("輸入10數字 第4個數字:"))
+e = int(input("輸入10數字 第5個數字:"))
+f = int(input("輸入10數字 第6個數字:"))
+g = int(input("輸入10數字 第7個數字:"))
+h = int(input("輸入10數字 第8個數字:"))
+i = int(input("輸入10數字 第9個數字:"))
+j = int(input("輸入10數字 第10個數字:"))
+print((a+b+c+d+e+f+g+h+i+j)/10)
